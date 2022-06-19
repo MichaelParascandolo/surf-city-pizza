@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Reviews from "./components/Reviews";
+import NotFound from "./components/404";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <Reviews />
               <About />
               <Menu />
+              <Contact />
             </>
           }
         />
@@ -30,6 +32,7 @@ function App() {
             <>
               <div className="mb-3"></div>
               <Menu />
+              <Contact />
             </>
           }
         />
@@ -40,11 +43,20 @@ function App() {
               <div className="mb-3"></div>
               <Reviews />
               <About />
+              <Contact />
+            </>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <>
+              <div className="mb-3"></div>
+              <NotFound />
             </>
           }
         />
       </Routes>
-      <Contact />
       <Footer />
     </Router>
   );
