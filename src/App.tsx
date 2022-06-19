@@ -1,25 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Menu from "./components/Menu";
+import Reviews from "./components/Reviews";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Reviews />
+              <About />
+              <Menu />
+            </>
+          }
+        />
+        <Route
+          path="/menu"
+          element={
+            <>
+              <div className="mb-3"></div>
+              <Menu />
+            </>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <>
+              <div className="mb-3"></div>
+              <Reviews />
+              <About />
+            </>
+          }
+        />
+      </Routes>
+      <Contact />
+      <Footer />
+    </Router>
   );
 }
 

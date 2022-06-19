@@ -1,13 +1,145 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#home h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 100px;
+}
+#home {
+  text-align: center;
+  background-image: url("img/pizza.jpg");
+  /* background-position: bottom; */
+}
+#home h1,
+h2,
+h3,
+p {
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+#home h2 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 150px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+#home h3 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+#about h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+}
+#about h4 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 70px;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+.navbar-brand span {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+}
+footer h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+footer h4 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 50px;
+}
+.card-columns {
+  column-count: 3;
+}
+footer a,
+footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  opacity: 90%;
+}
+/* MENU */
+#menu span,
+#menu h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc3545;
+}
+#menu p {
+  color: #363434;
+}
+#menu span::before {
+  content: "\a";
+  white-space: pre;
+}
+#menu span {
+  font-size: 15px;
+  color: #dc3545;
+}
+#menu .text-muted {
+  margin-top: -15px;
+}
+#menu .lead {
+  font-weight: bold;
+}
+#menu h3 {
+  font-family: "Alfa Slab One", cursive;
+}
+.card {
+  margin-top: 20px;
+}
+#reviews .bi {
+  font-size: 23px;
+}
+/* ONLY ON DESKTOP */
+@media only screen and (min-width: 800px) {
+  .nav-link {
+    border-bottom: 2px solid transparent;
+  }
+  .nav-link:hover {
+    border-bottom: 2px solid white;
+  }
+}
+/* MOBILE STYLES */
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  #home {
+    background-position: right;
+  }
+  #home h1 {
+    font-size: 60px;
+  }
+  #home h2 {
+    font-family: "Alfa Slab One", cursive;
+    font-size: 80px;
+  }
+  #home h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  #menu .lead {
+    font-size: 17px;
+  }
+  #menu span {
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  #menu .text-muted {
+    font-size: 15px !important;
+  }
 }
