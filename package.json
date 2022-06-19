@@ -2,7 +2,7 @@
   "name": "surf-city-pizza",
   "version": "1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://radiant-mermaid-d2aea2.netlify.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
