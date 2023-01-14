@@ -1,5 +1,4 @@
 import Logo from "./Logo";
-
 function header() {
   return (
     <>
@@ -20,17 +19,17 @@ function header() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a href="/" className="nav-link text-success">
-                  <strong>Home</strong>
+                  <span>Home</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/about" className="nav-link text-white">
-                  <strong>About</strong>
+                  <span>About</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="/menu" className="nav-link text-danger">
-                  <strong>Menu</strong>
+                  <span>Menu</span>
                 </a>
               </li>
             </ul>
