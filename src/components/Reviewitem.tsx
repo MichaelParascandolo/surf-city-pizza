@@ -1,6 +1,4 @@
-import React from "react";
-
-const Reviewitem = ({ name, text }: { name: string; text: string }) => {
+const ReviewItem = ({ name, text }: { name: string; text: string }) => {
   const styles = {
     star: "bi bi-star-fill text-warning",
   };
@@ -27,4 +25,4 @@ const Reviewitem = ({ name, text }: { name: string; text: string }) => {
   );
 };
 
-export default Reviewitem;
+export default ReviewItem;

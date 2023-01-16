@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Logo from "./Logo";
+
 function Footer() {
   return (
     <>
@@ -11,7 +12,9 @@ function Footer() {
             &nbsp;THANK YOU FOR SHOPPING&nbsp;
             <i className="bi bi-heart-fill text-danger"></i>
           </p>
-          <p className="mb-0">Copyright &copy; {new Date().getFullYear()}</p>
+          <p className="mb-0">
+            Copyright &copy; {new Date().getFullYear()} | Surf City Pizza
+          </p>
           <p className="mb-0">
             <a
               href="http://michaelparascandolo.com"
