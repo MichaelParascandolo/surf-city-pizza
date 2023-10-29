@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
