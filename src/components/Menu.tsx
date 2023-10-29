@@ -1,7 +1,7 @@
 import MenuItem from "./MenuItem";
 import MenuHeader from "./MenuHeader";
 
-function Menu() {
+const Menu = () => {
   return (
     <>
       <section className="bg-danger text-light p-2 text-center">
@@ -298,6 +298,6 @@ function Menu() {
       </section>
     </>
   );
-}
+};
 
 export default Menu;

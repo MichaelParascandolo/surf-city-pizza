@@ -1,4 +1,4 @@
-function Logo() {
+const Logo = () => {
   return (
     <>
       <h3>Surf City</h3>
@@ -11,6 +11,6 @@ function Logo() {
       </h4>
     </>
   );
-}
+};
 
 export default Logo;

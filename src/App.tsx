@@ -9,7 +9,7 @@ import Reviews from "./components/Reviews";
 import NotFound from "./components/404";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Header />
@@ -60,6 +60,6 @@ function App() {
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;
