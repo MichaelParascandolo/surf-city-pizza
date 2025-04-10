@@ -19,11 +19,11 @@ const Menu = () => {
           <div className="pt-4" />
           <MenuHeader title="pizza" />
           <div className="row">
-            <MenuItem name="16” Large Cheese" price="$19.99" />
+            <MenuItem name="16” Large Cheese" price="$20.99" />
             <MenuItem
               name="Grandma Pizza"
               desc="Thin crust Sicilian"
-              price="$26.99"
+              price="$27.99"
             />
           </div>
           <hr />
@@ -39,7 +39,7 @@ const Menu = () => {
             Pineapple, and Ricotta Cheese
           </p>
           <hr />
-          <MenuHeader title="gourmet pizza" desc="16” Large $26.99" />
+          <MenuHeader title="gourmet pizza" desc="16” Large $27.99" />
           <div className="row">
             <MenuItem
               name="Veggie"
@@ -79,36 +79,38 @@ const Menu = () => {
           <div className="row">
             <MenuItem
               name="Ricotta & Mozzarella Calzone"
-              price="$23.99"
+              price="$24.99"
               stack={true}
             />
             <MenuItem
               name="Mozzarella & Sauce Stromboli"
-              price="$18.99"
+              price="$20.99"
               stack={true}
             />
             <MenuItem
               name="Steak or Chicken Stromboli"
-              price="$26.99"
+              price="$27.99"
               stack={true}
             />
           </div>
           <hr />
-          <MenuHeader title="HOT SUBS" desc="Served on 12” Bread for $11.99" />
+          <MenuHeader title="HOT SUBS" desc="Served on 12” Bread for $12.99" />
           <div className="row">
             <MenuItem name="Eggplant Parmigiana" />
+            <MenuItem name="Fried Chicken Sub" />
+            <MenuItem name="Grilled Chicken Sub" />
+          </div>
+          <div className="row">
             <MenuItem
               name="Veggie Sub"
               desc="Broccoli, tomatoes & mozzarella"
             />
-          </div>
-          <div className="row">
             <MenuItem name="Chicken Parmigiana" />
             <MenuItem name="Meatball Parmigiana" />
             <MenuItem name="Sausage Parmigiana" />
           </div>
           <hr />
-          <MenuHeader title="cold subs" desc="Served on 12” Bread for $11.99" />
+          <MenuHeader title="cold subs" desc="Served on 12” Bread for $12.99" />
           <div className="row">
             <MenuItem name="Italian Sub" desc="Ham, salami, and provolone" />
             <MenuItem name="Ham & Cheese Sub" />
@@ -117,7 +119,7 @@ const Menu = () => {
           <hr />
           <MenuHeader
             title="STEAK OR CHICKEN CHEESESTEAK"
-            desc="Served on 12” Bread for $11.99"
+            desc="Served on 12” Bread for $12.99"
           />
           <div className="row">
             <MenuItem name="Cheesesteak" />
@@ -190,45 +192,45 @@ const Menu = () => {
           <div className="row">
             <MenuItem
               name="Spaghetti or Penne & Tomato Sauce"
-              price="$12.99"
+              price="$13.99"
               stack={true}
             />
             <MenuItem
               name="Spaghetti or Penne & Meatball or Sausage"
-              price="$16.99"
+              price="$17.99"
               stack={true}
             />
-            <MenuItem name="Penne Alla Vodka" price="$16.99" stack={true} />
+            <MenuItem name="Penne Alla Vodka" price="$17.99" stack={true} />
             <MenuItem
               name="Penne Alla Vodka & Chicken"
-              price="$19.99"
+              price="$20.99"
               stack={true}
             />
           </div>
           <div className="row">
             <MenuItem
               name="Chicken Parmigiana & pasta"
-              price="$20.99"
+              price="$21.99"
               stack={true}
             />
             <MenuItem
               name="Eggplant Parmigiana & pasta"
-              price="$19.99"
-              stack={true}
-            />
-            <MenuItem
-              name="Eggplant Rollatini & pasta"
               price="$20.99"
               stack={true}
             />
             <MenuItem
+              name="Eggplant Rollatini & pasta"
+              price="$21.99"
+              stack={true}
+            />
+            <MenuItem
               name="Mussels Marinara over Spaghetti"
-              price="$19.99"
+              price="$20.99"
               stack={true}
             />
           </div>
           <hr />
-          <MenuHeader title="APPETIZERS" desc="$14.99" />
+          <MenuHeader title="APPETIZERS" desc="$15.99" />
           <div className="row">
             <MenuItem name="Mussels Marinara" desc="Hot or mild" />
             <MenuItem
