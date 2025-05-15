@@ -19,27 +19,27 @@ const Menu = () => {
           <div className="pt-4" />
           <MenuHeader title="pizza" />
           <div className="row">
-            <MenuItem name="16” Large Cheese" price="$20.99" />
+            <MenuItem name="16” Large Cheese" price="$21.85" />
             <MenuItem
               name="Grandma Pizza"
               desc="Thin crust Sicilian"
-              price="$27.99"
+              price="$29.10"
             />
           </div>
           <hr />
           <MenuHeader title="Pizza toppings" />
           <p className="">
-            <strong className="text-danger">$3 Each:</strong> Sausage,
+            <strong className="text-danger">$3.15 Each:</strong> Sausage,
             Pepperoni, Meatball, Ham, Mushroom, Peppers, Onion, Olives,
             Broccoli, Fresh Garlic, Fresh Tomatoes, Hot Peppers, and Extra
             Cheese
           </p>
           <p>
-            <strong className="text-danger">$6 Each:</strong> Bacon, Eggplant,
-            Pineapple, and Ricotta Cheese
+            <strong className="text-danger">$6.25 Each:</strong> Bacon,
+            Eggplant, Pineapple, and Ricotta Cheese
           </p>
           <hr />
-          <MenuHeader title="gourmet pizza" desc="16” Large $27.99" />
+          <MenuHeader title="gourmet pizza" desc="16” Large $29.10" />
           <div className="row">
             <MenuItem
               name="Veggie"
@@ -74,27 +74,27 @@ const Menu = () => {
           <MenuHeader
             title="calzone & stromboli"
             desc="Create your own Calzone or Stromboli using the Pizza Topping List
-            $3.00 Each"
+            $3.15 Each"
           />
           <div className="row">
             <MenuItem
               name="Ricotta & Mozzarella Calzone"
-              price="$24.99"
+              price="$25.99"
               stack={true}
             />
             <MenuItem
               name="Mozzarella & Sauce Stromboli"
-              price="$20.99"
+              price="$21.85"
               stack={true}
             />
             <MenuItem
               name="Steak or Chicken Stromboli"
-              price="$27.99"
+              price="$29.10"
               stack={true}
             />
           </div>
           <hr />
-          <MenuHeader title="HOT SUBS" desc="Served on 12” Bread for $12.99" />
+          <MenuHeader title="HOT SUBS" desc="Served on 12” Bread for $13.50" />
           <div className="row">
             <MenuItem name="Eggplant Parmigiana" />
             <MenuItem name="Fried Chicken Sub" />
@@ -110,16 +110,16 @@ const Menu = () => {
             <MenuItem name="Sausage Parmigiana" />
           </div>
           <hr />
-          <MenuHeader title="cold subs" desc="Served on 12” Bread for $12.99" />
+          <MenuHeader title="cold subs" desc="Served on 12” Bread for $13.50" />
           <div className="row">
             <MenuItem name="Italian Sub" desc="Ham, salami, and provolone" />
             <MenuItem name="Ham & Cheese Sub" />
-            <MenuItem name="Turkey Sub" desc="Add Cheese $1 Extra" />
+            <MenuItem name="Turkey Sub" price="Add Cheese $1.05 Extra" />
           </div>
           <hr />
           <MenuHeader
             title="STEAK OR CHICKEN CHEESESTEAK"
-            desc="Served on 12” Bread for $12.99"
+            desc="Served on 12” Bread for $13.50"
           />
           <div className="row">
             <MenuItem name="Cheesesteak" />
@@ -143,10 +143,10 @@ const Menu = () => {
             desc="Wings served with hot sauce and blue cheese on the side"
           />
           <div className="row">
-            <MenuItem name="9 Wings" price="$13.99" />
-            <MenuItem name="12 Wings" price="$17.99" />
-            <MenuItem name="18 Wings" price="$25.99" />
-            <MenuItem name="24 Wings" price="$33.99" />
+            <MenuItem name="9 Wings" price="$14.55" />
+            <MenuItem name="12 Wings" price="$18.70" />
+            <MenuItem name="18 Wings" price="$27.00" />
+            <MenuItem name="24 Wings" price="$35.35" />
           </div>
           <hr />
           <MenuHeader
@@ -154,18 +154,18 @@ const Menu = () => {
             desc="Tenders served with honey mustard on the side"
           />
           <div className="row">
-            <MenuItem name="6 Tenders" price="$11.99" />
-            <MenuItem name="9 Tenders" price="$16.99" />
+            <MenuItem name="6 Tenders" price="$12.49" />
+            <MenuItem name="9 Tenders" price="$17.69" />
           </div>
           <div className="row">
-            <MenuItem name="12 Tenders" price="$20.99" />
-            <MenuItem name="18 Tenders" price="$29.99" />
-            <MenuItem name="24 Tenders" price="$38.99" />
+            <MenuItem name="12 Tenders" price="$21.85" />
+            <MenuItem name="18 Tenders" price="$31.20" />
+            <MenuItem name="24 Tenders" price="$40.55" />
           </div>
           <hr />
           <MenuHeader
             title="wraps"
-            desc="Served with a side of fries for $13.99"
+            desc="Served with a side of fries for $14.55"
           />
           <div className="row">
             <MenuItem
@@ -192,45 +192,45 @@ const Menu = () => {
           <div className="row">
             <MenuItem
               name="Spaghetti or Penne & Tomato Sauce"
-              price="$13.99"
+              price="$14.55"
               stack={true}
             />
             <MenuItem
               name="Spaghetti or Penne & Meatball or Sausage"
-              price="$17.99"
+              price="$18.70"
               stack={true}
             />
-            <MenuItem name="Penne Alla Vodka" price="$17.99" stack={true} />
+            <MenuItem name="Penne Alla Vodka" price="$18.70" stack={true} />
             <MenuItem
               name="Penne Alla Vodka & Chicken"
-              price="$20.99"
+              price="$21.85"
               stack={true}
             />
           </div>
           <div className="row">
             <MenuItem
               name="Chicken Parmigiana & pasta"
-              price="$21.99"
+              price="$22.89"
               stack={true}
             />
             <MenuItem
               name="Eggplant Parmigiana & pasta"
-              price="$20.99"
+              price="$21.85"
               stack={true}
             />
             <MenuItem
               name="Eggplant Rollatini & pasta"
-              price="$21.99"
+              price="$22.89"
               stack={true}
             />
             <MenuItem
               name="Mussels Marinara over Spaghetti"
-              price="$20.99"
+              price="$21.85"
               stack={true}
             />
           </div>
           <hr />
-          <MenuHeader title="APPETIZERS" desc="$15.99" />
+          <MenuHeader title="APPETIZERS" desc="$16.65" />
           <div className="row">
             <MenuItem name="Mussels Marinara" desc="Hot or mild" />
             <MenuItem
@@ -245,55 +245,55 @@ const Menu = () => {
           <hr />
           <MenuHeader title="salad" />
           <div className="row">
-            <MenuItem name="Garden Salad" desc="" price="$9.99" />
+            <MenuItem name="Garden Salad" desc="" price="$10.39" />
             <MenuItem
               name="Grilled, Fried, or Buffalo Chicken"
               desc=""
-              price="$13.99"
+              price="$14.55"
             />
             <MenuItem
               name="Antipasto Salad"
               desc="Ham, salami & provolone"
-              price="$13.99"
+              price="$14.55"
             />
           </div>
           <div className="row">
             <MenuItem
               name="Chef Salad"
               desc="Turkey & provolone"
-              price="$13.99"
+              price="$14.55"
             />
             <MenuItem
               name="Caesar Salad"
               desc="Romaine lettuce, croutons & Romano cheese"
-              price="$9.99 | $13.99 w/chicken"
+              price="$10.39 | $14.55 w/chicken"
             />
             <MenuItem
               name="Caprese Salad"
               desc="Fresh mozzarella, roasted peppers, tomatoes, olives and basil"
-              price="$14.99"
+              price="$15.59"
             />
           </div>
           <hr />
           <MenuHeader title="sides" />
           <div className="row">
-            <MenuItem name="Fries" price="$6.99" />
-            <MenuItem name="Cheese Fries" price="$7.99" />
-            <MenuItem name="Onion Rings" price="$7.99" />
+            <MenuItem name="Fries" price="$7.30" />
+            <MenuItem name="Cheese Fries" price="$8.30" />
+            <MenuItem name="Onion Rings" price="$8.30" />
           </div>
           <div className="row">
-            <MenuItem name="Mozzarella Sticks (6)" price="$9.99" />
-            <MenuItem name="Meatballs (3)" price="$6.99" />
-            <MenuItem name="Garlic Bread" price="$6.99 | $7.99 w/cheese" />
+            <MenuItem name="Mozzarella Sticks (6)" price="$10.39" />
+            <MenuItem name="Meatballs (3)" price="$7.30" />
+            <MenuItem name="Garlic Bread" price="$7.30 | $8.30 w/cheese" />
           </div>
           <hr />
           <MenuHeader title="kids menu" />
-          <h6 className="mb-5">$7.99</h6>
+          <h6 className="mb-5">$8.30</h6>
           <div className="row">
             <MenuItem name="Chicken Tenders & Fries" />
             <MenuItem
               name="Ziti with Sauce or Butter"
-              price="$7.99 | $1 Extra for Meatball"
+              price="$1.00 Extra for Meatball"
             />
           </div>
         </div>
